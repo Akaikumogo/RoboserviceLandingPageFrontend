@@ -21,7 +21,7 @@ const Navigation = () => {
    const navigate = useNavigate();
    return (
       <nav
-         className={`transition-all duration-300  fixed top-0 left-0 w-screen z-[50] ${
+         className={`transition-all duration-[]  fixed top-0 left-0 w-screen z-[50] ${
             isSticky ? ' nav shadow-lg' : 'bg-transparent'
          }`}
       >
